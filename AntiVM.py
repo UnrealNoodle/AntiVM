@@ -15,8 +15,7 @@ if username.lower() in blacklistUsers:
     try:
         with open(file_path, "w") as file:
             file.write("")
-        # print("Text file created successfully.")
     except IOError as e:
-        # print("An error occurred while writing to the file:", e)
+        pass
 else:
-    # print("PC username not in the blacklist.")
+    pass
